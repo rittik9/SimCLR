@@ -5,7 +5,7 @@ SimCLR, short for "Simple Contrastive Learning of Visual Representations," is a 
 <p align="center">
   <img src="https://sthalles.github.io/assets/contrastive-self-supervised/cover.png" width="500"/>
 </p>
-
+<p align="center"><a href="https://sthalles.github.io/simple-self-supervised-learning/">Image Source</a></p>
 
 ### Folder Structure:
 ```
@@ -41,21 +41,18 @@ SimCLR, short for "Simple Contrastive Learning of Visual Representations," is a 
 ```
 ### Implementation Overview:
 In this implementation CIFAR-10 (https://www.cs.toronto.edu/~kriz/cifar.html) dataset has been used. For contrastive pretraining Resnet-18(pretrained=False) has been used as backbone. Before the pretraining, we performed two types of augmentation on the dataset, namely random cropping and color jittering.
-<div style="text-align:center;">
-  <p align="center">
-    <img src="https://github.com/rittik9/SimCLR/blob/master/SimCLR/Augmentaion.png" width="500"/>
-  </p>
-  <p>Dataset Augmentation</p>
-</div>
+<p align="center">
+  <img src="https://github.com/rittik9/SimCLR/blob/master/SimCLR/Augmentaion.png" width="500"/>
+</p>
+<p align="center">Dataset Augmentation</p>
 
 Then it is pretrained for 100 epochs using Adam([Adam.ipynb](https://github.com/rittik9/SimCLR/blob/master/SimCLR/Adam/Adam.ipynb)) &  Nesterov accelerated SGD([SGD.ipynb](https://github.com/rittik9/SimCLR/blob/master/SimCLR/SGD/SGD.ipynb)) and NT-Xent loss (Normalized temperature-scaled cross-entropy loss).
 
-<div style="text-align:center;">
-  <p align="center">
-    <img src="https://miro.medium.com/v2/resize:fit:2000/format:webp/1*s02HAjs9xeG2ihBJyWXHLw.png" width="500"/>
-  </p>
-  <p>Image Source: <a href="https://medium.com/self-supervised-learning/nt-xent-loss-normalized-temperature-scaled-cross-entropy-loss-ea5a1ede7c40">Medium</a></p>
-</div>
+<p align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:2000/format:webp/1*s02HAjs9xeG2ihBJyWXHLw.png" width="500"/>
+</p>
+<p align="center">Image Source: <a href="https://medium.com/self-supervised-learning/nt-xent-loss-normalized-temperature-scaled-cross-entropy-loss-ea5a1ede7c40">Medium</a></p>
+
 After pretraining I threw away the projection head and I made a finetuning head and finetuned it using 6500 labeled datapoints for 20 epochs using Adam optimizer.<br>
 
 I also implemented this project using supervised approach([Supervised.ipynb](https://github.com/rittik9/SimCLR/blob/master/Supervised_Resnet18_as_Backbone/Supervised.ipynb)).At first downloaded imagenet pretrained Resnet-18 and used it as a feature extractor for 6500 labeled datapoints and then made a finetuning head and finetuned it using those extracted features.
@@ -104,4 +101,10 @@ All the experiments were performed on **CIFAR-10** dataset.<br>
 |:---:|:---:|
 | *NAG Optimizer Based SimCLR* | *Supervised Approach* |
 ### Reference:
-
+- [Ref 1:](https://www.youtube.com/watch?v=wySLC4nszv8)
+- [Ref 2:](https://sthalles.github.io/simple-self-supervised-learning/)
+- [Ref 3:](https://medium.com/analytics-vidhya/understanding-simclr-a-simple-framework-for-contrastive-learning-of-visual-representations-d544a9003f3c)
+- [Ref 4:](https://github.com/sthalles/SimCLR?tab=readme-ov-file)
+- [Ref 5:](https://github.com/thunderInfy/simclr)
+- [Ref 6:](https://github.com/Spijkervet/SimCLR)
+- [Ref 7:](https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial17/SimCLR.html)
