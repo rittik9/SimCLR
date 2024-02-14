@@ -96,3 +96,6 @@ All the experiments were performed on **CIFAR-10** dataset.<br>
 
 
 ### Reference:
+| ![Contrastive Training Loss per Epoch (Adam)](https://github.com/rittik9/SimCLR/blob/master/SimCLR/Adam/Contrastive%20Training%20Loss%20per%20Epoch.png) | ![Contrastive Training Loss per Epoch (NAG)](https://github.com/rittik9/SimCLR/blob/master/SimCLR/SGD/Contrastive%20Training%20Loss%20per%20Epoch.png) |
+|:---:|:---:|
+| *Contrastive Training Loss per Epoch (Adam)* | *Contrastive Training Loss per Epoch (NAG)* |
