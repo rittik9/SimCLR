@@ -11,32 +11,32 @@ SimCLR, short for "Simple Contrastive Learning of Visual Representations," is a 
 ```
 /
 │
-├── [Sim_CLR/](https://github.com/rittik9/SimCLR/tree/master/SimCLR)
-│   ├── [Adam/](https://github.com/rittik9/SimCLR/tree/master/SimCLR/Adam)
-│   │   ├── [Contrastive Training Loss per Epoch.png](https://github.com/rittik9/SimCLR/blob/master/SimCLR/Adam/Contrastive%20Training%20Loss%20per%20Epoch.png)
-│   │   ├── [SIMclr_confusion_matrix.png](https://github.com/rittik9/SimCLR/blob/master/SimCLR/Adam/SIMclr_confusion_matrix.png)
-│   │   ├── [training_validation_metrics_finetuning_simclr.png](https://github.com/rittik9/SimCLR/blob/master/SimCLR/Adam/training_validation_metrics_finetuning_simclr.png)
-│   │   ├── [tsne_finetuning_dataset.png](https://github.com/rittik9/SimCLR/blob/master/SimCLR/Adam/tsne_finetuning_dataset.png)
-│   │   ├── [tsne_test_dataset.png](https://github.com/rittik9/SimCLR/blob/master/SimCLR/Adam/tsne_test_dataset.png)
-│   │   ├── [Adam.ipynb](https://github.com/rittik9/SimCLR/blob/master/SimCLR/Adam/Adam.ipynb)
-│   ├── [SGD/](https://github.com/rittik9/SimCLR/tree/master/SimCLR/SGD)
-│   │   ├── [Contrastive Training Loss per Epoch.png](https://github.com/rittik9/SimCLR/blob/master/SimCLR/SGD/Contrastive%20Training%20Loss%20per%20Epoch.png)
-│   │   ├── [SIMclr_confusion_matrix.png](https://github.com/rittik9/SimCLR/blob/master/SimCLR/SGD/SIMclr_confusion_matrix.png)
-│   │   ├── [training_validation_metrics_finetuning_simclr.png](https://github.com/rittik9/SimCLR/blob/master/SimCLR/SGD/training_validation_metrics_finetuning_simclr.png)
-│   │   ├── [tsne_finetuning_dataset.png](https://github.com/rittik9/SimCLR/blob/master/SimCLR/SGD/tsne_finetuning_dataset.png)
-│   │   ├── [tsne_test_dataset.png](https://github.com/rittik9/SimCLR/blob/master/SimCLR/SGD/tsne_test_dataset.png)
-│   │   ├── [SGD.ipynb](https://github.com/rittik9/SimCLR/blob/master/SimCLR/SGD/SGD.ipynb)
-│   ├── [Augmentation.png](https://github.com/rittik9/SimCLR/blob/master/SimCLR/Augmentation.png)
-├── [Supervised_Resnet18_as_backbone/](https://github.com/rittik9/SimCLR/tree/master/Supervised_Resnet18_as_backbone)
-│   ├── [supervised_Resnet18 as Feature Extractor_confusion_matrix.png](https://github.com/rittik9/SimCLR/blob/master/Supervised_Resnet18_as_backbone/supervised_Resnet18%20as%20Feature%20Extractor_confusion_matrix.png)
-│   ├── [training_validation_metrics_supervised.png](https://github.com/rittik9/SimCLR/blob/master/Supervised_Resnet18_as_backbone/training_validation_metrics_supervised.png)
-│   ├── [tsne_finetuning_dataset_pretrained_resnet18.png](https://github.com/rittik9/SimCLR/blob/master/Supervised_Resnet18_as_backbone/tsne_finetuning_dataset_pretrained_resnet18.png)
-│   ├── [tsne_test_dataset_pretrained_resnet18.png](https://github.com/rittik9/SimCLR/blob/master/Supervised_Resnet18_as_backbone/tsne_test_dataset_pretrained_resnet18.png)
-│   ├── [Supervised.ipynb](https://github.com/rittik9/SimCLR/blob/master/Supervised_Resnet18_as_backbone/Supervised.ipynb)
-├── [.gitignore](https://github.com/rittik9/SimCLR/blob/master/.gitignore)
-├── [LICENSE](https://github.com/rittik9/SimCLR/blob/master/LICENSE)
-├── [README.md](https://github.com/rittik9/SimCLR/blob/master/README.md)
-├── [requirements.txt](https://github.com/rittik9/SimCLR/blob/master/requirements.txt)
+├── Sim_CLR/
+│   ├── Adam/
+│   │   ├── Contrastive Training Loss per Epoch.png
+│   │   ├── SIMclr_confusion_matrix.png
+|   |   ├── training_validation_metrics_finetuning_simclr.png
+|   |   ├── tsne_finetuning_dataset.png
+|   |   ├── tsne_test_dataset.png
+|   |   ├── Adam.ipynb
+│   ├── SGD/
+│   │   ├── Contrastive Training Loss per Epoch.png
+│   │   ├── SIMclr_confusion_matrix.png
+|   |   ├── training_validation_metrics_finetuning_simclr.png
+|   |   ├── tsne_finetuning_dataset.png
+|   |   ├── tsne_test_dataset.png
+|   |   ├── SGD.ipynb
+│   ├── Augmentation.png
+├── Supervised_Resnet18_as_backbone/
+│   ├── supervised_ Resnet18 as Feature Extractor_confusion_matrix.png
+│   ├── training_validation_metrics_supervised.png
+│   ├── tsne_finetuning_dataset_pretrained_resnet18.png
+│   ├── tsne_test_dataset_pretrained_resnet18.png
+│   ├── Supervised.ipynb
+├── .gitignore
+├── LICENSE
+├── README.md
+├── requirements.txt
 
 ```
 ### Implementation Overview:
