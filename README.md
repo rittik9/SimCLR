@@ -39,7 +39,11 @@ SimCLR, short for "Simple Contrastive Learning of Visual Representations," is a 
 
 ```
 ### Implementation Overview:
-In this implementation CIFAR-10 (https://www.cs.toronto.edu/~kriz/cifar.html) dataset has been used. For contrastive pretraining Resnet-18(pretrained=False) has been used as backbone. It is trained for 100 epochs using Adam([Adam.ipynb](https://github.com/rittik9/SimCLR/blob/master/SimCLR/Adam/Adam.ipynb)) &  Nesterov accelerated SGD([SGD.ipynb](https://github.com/rittik9/SimCLR/blob/master/SimCLR/SGD/SGD.ipynb)) and NT-Xent loss (Normalized temperature-scaled cross-entropy loss).
+In this implementation CIFAR-10 (https://www.cs.toronto.edu/~kriz/cifar.html) dataset has been used. For contrastive pretraining Resnet-18(pretrained=False) has been used as backbone. Before the pretraining, we performed two types of augmentation on the dataset, namely random cropping and color jittering.
+<p align="center">
+  <img src="https://github.com/rittik9/SimCLR/blob/master/SimCLR/Augmentaion.png" width="500"/>
+</p>
+Then it is pretrained for 100 epochs using Adam([Adam.ipynb](https://github.com/rittik9/SimCLR/blob/master/SimCLR/Adam/Adam.ipynb)) &  Nesterov accelerated SGD([SGD.ipynb](https://github.com/rittik9/SimCLR/blob/master/SimCLR/SGD/SGD.ipynb)) and NT-Xent loss (Normalized temperature-scaled cross-entropy loss).
 <p align="center">
   <img src="https://miro.medium.com/v2/resize:fit:2000/format:webp/1*s02HAjs9xeG2ihBJyWXHLw.png" width="500"/>
 </p>
