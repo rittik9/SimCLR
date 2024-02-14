@@ -85,6 +85,8 @@ All the experiments were performed on **CIFAR-10** dataset.<br>
 | ![l_A_sgd](https://github.com/rittik9/SimCLR/blob/master/SimCLR/SGD/training_validation_metrics_finetuning_simclr.png) | ![l_a_s](https://github.com/rittik9/SimCLR/blob/master/Supervised_Resnet18_as_Backbone/training_validation_metrics_supervised.png) |
 |:---:|:---:|
 | *Train and Validation Metrics in Finetuning of SimCLR Method* | *Train and Validation Metrics in Finetuning of Supervised Method* |
-
+| ![CF(NAG)](https://github.com/rittik9/SimCLR/blob/master/SimCLR/SGD/SIMclr_confusion_matrix.png) | ![CF (s)](https://github.com/rittik9/SimCLR/blob/master/Supervised_Resnet18_as_Backbone/supervised_%20Resnet18%20as%20Feature%20Extractor_confusion_matrix.png) |
+|:---:|:---:|
+| *NAG Optimizer Based SimCLR* | *Supervised Approach* |
 ### Reference:
 
