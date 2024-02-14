@@ -79,23 +79,12 @@ All the experiments were performed on **CIFAR-10** dataset.<br>
 | Supervised| 256 | ResNet18(pretrained=True) | 1000 | - |20 |Adam(finetuning) | 0.7558 | 0.7543 |
 
 ### Visualizations:
-<div style="display: flex; justify-content: center;">
-  <div style="margin-right: 10px;">
-    <p align="center">
-      <img src="https://github.com/rittik9/SimCLR/blob/master/SimCLR/Adam/Contrastive%20Training%20Loss%20per%20Epoch.png" width="300" alt="Contrastive Training Loss per Epoch"/>
-    </p>
-    <p align="center">*Contrastive Training Loss per Epoch (Adam)*</p>
-  </div>
-  <div style="margin-left: 10px;">
-    <p align="center">
-      <img src="https://github.com/rittik9/SimCLR/blob/master/SimCLR/SGD/Contrastive%20Training%20Loss%20per%20Epoch.png" width="300" alt="Contrastive Training Loss per Epoch"/>
-    </p>
-    <p align="center">*Contrastive Training Loss per Epoch (NAG)*</p>
-  </div>
-</div>
-
-
-### Reference:
 | ![Contrastive Training Loss per Epoch (Adam)](https://github.com/rittik9/SimCLR/blob/master/SimCLR/Adam/Contrastive%20Training%20Loss%20per%20Epoch.png) | ![Contrastive Training Loss per Epoch (NAG)](https://github.com/rittik9/SimCLR/blob/master/SimCLR/SGD/Contrastive%20Training%20Loss%20per%20Epoch.png) |
 |:---:|:---:|
 | *Contrastive Training Loss per Epoch (Adam)* | *Contrastive Training Loss per Epoch (NAG)* |
+| ![l_A_sgd](https://github.com/rittik9/SimCLR/blob/master/SimCLR/SGD/training_validation_metrics_finetuning_simclr.png) | ![l_a_s](https://github.com/rittik9/SimCLR/blob/master/Supervised_Resnet18_as_Backbone/training_validation_metrics_supervised.png) |
+|:---:|:---:|
+| *Train and Validation Metrics in Finetuning of SimCLR Method* | *Train and Validation Metrics in Finetuning of Supervised Method* |
+
+### Reference:
+
