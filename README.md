@@ -10,7 +10,7 @@ SimCLR, short for "Simple Contrastive Learning of Visual Representations," is a 
 ### Folder Structure:
 /
 │
-├── [Sim_CLR/](Sim_CLR)
+├── [Sim_CLR](https://github.com/rittik9/SimCLR)
 │   ├── [Adam/](Sim_CLR/Adam)
 │   │   ├── [Contrastive Training Loss per Epoch.png](Sim_CLR/Adam/Contrastive%20Training%20Loss%20per%20Epoch.png)
 │   │   ├── [SIMclr_confusion_matrix.png](Sim_CLR/Adam/SIMclr_confusion_matrix.png)
