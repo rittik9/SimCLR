@@ -8,36 +8,35 @@ SimCLR, short for "Simple Contrastive Learning of Visual Representations," is a 
 
 
 ### Folder Structure:
-```
 /
 │
-├── Sim_CLR/
-│   ├── Adam/
-│   │   ├── Contrastive Training Loss per Epoch.png
-│   │   ├── SIMclr_confusion_matrix.png
-|   |   ├── training_validation_metrics_finetuning_simclr.png
-|   |   ├── tsne_finetuning_dataset.png
-|   |   ├── tsne_test_dataset.png
-|   |   ├── Adam.ipynb
-│   ├── SGD/
-│   │   ├── Contrastive Training Loss per Epoch.png
-│   │   ├── SIMclr_confusion_matrix.png
-|   |   ├── training_validation_metrics_finetuning_simclr.png
-|   |   ├── tsne_finetuning_dataset.png
-|   |   ├── tsne_test_dataset.png
-|   |   ├── SGD.ipynb
-├── Supervised_Resnet18_as_backbone/
-│   ├── supervised_ Resnet18 as Feature Extractor_confusion_matrix.png
-│   ├── training_validation_metrics_supervised.png
-│   ├── tsne_finetuning_dataset_pretrained_resnet18.png
-│   ├── tsne_test_dataset_pretrained_resnet18.png
-│   ├── Supervised.ipynb
-├── .gitignore
-├── LICENSE
-├── README.md
-├── requirements.txt
+├── [Sim_CLR/](Sim_CLR)
+│   ├── [Adam/](Sim_CLR/Adam)
+│   │   ├── [Contrastive Training Loss per Epoch.png](Sim_CLR/Adam/Contrastive%20Training%20Loss%20per%20Epoch.png)
+│   │   ├── [SIMclr_confusion_matrix.png](Sim_CLR/Adam/SIMclr_confusion_matrix.png)
+│   │   ├── [training_validation_metrics_finetuning_simclr.png](Sim_CLR/Adam/training_validation_metrics_finetuning_simclr.png)
+│   │   ├── [tsne_finetuning_dataset.png](Sim_CLR/Adam/tsne_finetuning_dataset.png)
+│   │   ├── [tsne_test_dataset.png](Sim_CLR/Adam/tsne_test_dataset.png)
+│   │   ├── [Adam.ipynb](Sim_CLR/Adam/Adam.ipynb)
+│   ├── [SGD/](Sim_CLR/SGD)
+│   │   ├── [Contrastive Training Loss per Epoch.png](Sim_CLR/SGD/Contrastive%20Training%20Loss%20per%20Epoch.png)
+│   │   ├── [SIMclr_confusion_matrix.png](Sim_CLR/SGD/SIMclr_confusion_matrix.png)
+│   │   ├── [training_validation_metrics_finetuning_simclr.png](Sim_CLR/SGD/training_validation_metrics_finetuning_simclr.png)
+│   │   ├── [tsne_finetuning_dataset.png](Sim_CLR/SGD/tsne_finetuning_dataset.png)
+│   │   ├── [tsne_test_dataset.png](Sim_CLR/SGD/tsne_test_dataset.png)
+│   │   ├── [SGD.ipynb](Sim_CLR/SGD/SGD.ipynb)
+│   ├── [Augmentation.png](Sim_CLR/Augmentation.png)
+├── [Supervised_Resnet18_as_backbone/](Supervised_Resnet18_as_backbone)
+│   ├── [supervised_Resnet18 as Feature Extractor_confusion_matrix.png](Supervised_Resnet18_as_backbone/supervised_Resnet18%20as%20Feature%20Extractor_confusion_matrix.png)
+│   ├── [training_validation_metrics_supervised.png](Supervised_Resnet18_as_backbone/training_validation_metrics_supervised.png)
+│   ├── [tsne_finetuning_dataset_pretrained_resnet18.png](Supervised_Resnet18_as_backbone/tsne_finetuning_dataset_pretrained_resnet18.png)
+│   ├── [tsne_test_dataset_pretrained_resnet18.png](Supervised_Resnet18_as_backbone/tsne_test_dataset_pretrained_resnet18.png)
+│   ├── [Supervised.ipynb](Supervised_Resnet18_as_backbone/Supervised.ipynb)
+├── [.gitignore](.gitignore)
+├── [LICENSE](LICENSE)
+├── [README.md](README.md)
+├── [requirements.txt](requirements.txt)
 
-```
 ### Implementation Overview:
 In this implementation CIFAR-10 (https://www.cs.toronto.edu/~kriz/cifar.html) dataset has been used. For contrastive pretraining Resnet-18(pretrained=False) has been used as backbone. Before the pretraining, we performed two types of augmentation on the dataset, namely random cropping and color jittering.
 <p align="center">
