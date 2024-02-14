@@ -80,7 +80,7 @@ All the experiments were performed on **CIFAR-10** dataset.<br>
 
 ### Visualizations:
 <p align="center">
-  <img src="https://github.com/rittik9/SimCLR/blob/master/SimCLR/Adam/Contrastive%20Training%20Loss%20per%20Epoch.png" width="500"/>
+  <img src="https://github.com/rittik9/SimCLR/blob/master/SimCLR/Adam/Contrastive%20Training%20Loss%20per%20Epoch.png" width="5200"/>
 </p>
 
 ### Reference:
