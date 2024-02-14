@@ -79,8 +79,20 @@ All the experiments were performed on **CIFAR-10** dataset.<br>
 | Supervised| 256 | ResNet18(pretrained=True) | 1000 | - |20 |Adam(finetuning) | 0.7558 | 0.7543 |
 
 ### Visualizations:
-<p align="center">
-  <img src="https://github.com/rittik9/SimCLR/blob/master/SimCLR/Adam/Contrastive%20Training%20Loss%20per%20Epoch.png" width="200"/>
-</p>
+<div style="display: flex; justify-content: center;">
+  <div style="margin-right: 10px;">
+    <p align="center">
+      <img src="https://github.com/rittik9/SimCLR/blob/master/SimCLR/Adam/Contrastive%20Training%20Loss%20per%20Epoch.png" width="500" alt="Contrastive Training Loss per Epoch"/>
+    </p>
+    <p align="center">*Contrastive Training Loss per Epoch (Adam)*</p>
+  </div>
+  <div style="margin-left: 10px;">
+    <p align="center">
+      <img src="https://github.com/rittik9/SimCLR/blob/master/SimCLR/SGD/Contrastive%20Training%20Loss%20per%20Epoch.png" width="500" alt="Contrastive Training Loss per Epoch"/>
+    </p>
+    <p align="center">*Contrastive Training Loss per Epoch (NAG)*</p>
+  </div>
+</div>
+
 
 ### Reference:
