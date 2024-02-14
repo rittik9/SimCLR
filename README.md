@@ -11,7 +11,7 @@ SimCLR, short for "Simple Contrastive Learning of Visual Representations," is a 
 ```
 /
 │
-├── [Sim_CLR/](https://github.com/rittik9/SimCLR/tree/master/SimCLR)
+├── ([Sim_CLR/](https://github.com/rittik9/SimCLR/tree/master/SimCLR))
 │   ├── [Adam/](https://github.com/rittik9/SimCLR/tree/master/SimCLR/Adam)
 │   │   ├── [Contrastive Training Loss per Epoch.png](https://github.com/rittik9/SimCLR/blob/master/SimCLR/Adam/Contrastive%20Training%20Loss%20per%20Epoch.png)
 │   │   ├── [SIMclr_confusion_matrix.png](https://github.com/rittik9/SimCLR/blob/master/SimCLR/Adam/SIMclr_confusion_matrix.png)
