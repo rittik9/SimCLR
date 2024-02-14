@@ -82,13 +82,13 @@ All the experiments were performed on **CIFAR-10** dataset.<br>
 <div style="display: flex; justify-content: center;">
   <div style="margin-right: 10px;">
     <p align="center">
-      <img src="https://github.com/rittik9/SimCLR/blob/master/SimCLR/Adam/Contrastive%20Training%20Loss%20per%20Epoch.png" width="500" alt="Contrastive Training Loss per Epoch"/>
+      <img src="https://github.com/rittik9/SimCLR/blob/master/SimCLR/Adam/Contrastive%20Training%20Loss%20per%20Epoch.png" width="300" alt="Contrastive Training Loss per Epoch"/>
     </p>
     <p align="center">*Contrastive Training Loss per Epoch (Adam)*</p>
   </div>
   <div style="margin-left: 10px;">
     <p align="center">
-      <img src="https://github.com/rittik9/SimCLR/blob/master/SimCLR/SGD/Contrastive%20Training%20Loss%20per%20Epoch.png" width="500" alt="Contrastive Training Loss per Epoch"/>
+      <img src="https://github.com/rittik9/SimCLR/blob/master/SimCLR/SGD/Contrastive%20Training%20Loss%20per%20Epoch.png" width="300" alt="Contrastive Training Loss per Epoch"/>
     </p>
     <p align="center">*Contrastive Training Loss per Epoch (NAG)*</p>
   </div>
