@@ -73,7 +73,7 @@ pip install -r requirements.txt
 
 -  SimCLR_SGD:
    - [simclr_backbone.pth](https://iiitbac-my.sharepoint.com/:u:/g/personal/rittik_panda_iiitb_ac_in/Ec0iPedOxhxPrnqW6XvDKrsBoRSoouEs__nv5O7KJUh6oA?e=AOG935)->This is Resnet-18(pretrained=False) backbone, which was pretrained by contrastive learning using Nesterov accelerated SGD optimizer.
-   - [simclr_projection_head.pth](https://iiitbac-my.sharepoint.com/:u:/g/personal/rittik_panda_iiitb_ac_in/ESv0YOm_89hJqPL8XvI6SywBR4F_mpa9z_YaE5-v_qCdmw?e=BcfU3q)->TThis is the projection head used in contrastive pretraining to project the images in 128 dimension and calculate NT-Xent loss, after pretraining I threw it away.
+   - [simclr_projection_head.pth](https://iiitbac-my.sharepoint.com/:u:/g/personal/rittik_panda_iiitb_ac_in/ESv0YOm_89hJqPL8XvI6SywBR4F_mpa9z_YaE5-v_qCdmw?e=BcfU3q)->This is the projection head used in contrastive pretraining to project the images in 128 dimension and calculate NT-Xent loss, after pretraining I threw it away.
    - [finetuned_model.pth](https://iiitbac-my.sharepoint.com/:u:/g/personal/rittik_panda_iiitb_ac_in/ESv0YOm_89hJqPL8XvI6SywBR4F_mpa9z_YaE5-v_qCdmw?e=BcfU3q)->This is the finetuning head which was finetuned by 6500 labeled datapoints(after feature extraction of those datapoints by contrastive pretrained Resnet-18).
 
 -  Supervised: 
