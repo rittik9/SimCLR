@@ -40,7 +40,7 @@ SimCLR, short for "Simple Contrastive Learning of Visual Representations," is a 
 
 ```
 ### Implementation Overview:
-In this implementation CIFAR-10 (https://www.cs.toronto.edu/~kriz/cifar.html) dataset has been used. For contrastive pretraining Resnet-18(pretrained=False) has been used as backbone. Before the pretraining, we performed two types of augmentation on the dataset, namely random cropping and color jittering.
+In this implementation [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) dataset has been used. For contrastive pretraining Resnet-18(pretrained=False) has been used as backbone. Before the pretraining, we performed two types of augmentation on the dataset, namely random cropping and color jittering.
 <p align="center">
   <img src="https://github.com/rittik9/SimCLR/blob/master/SimCLR/Augmentaion.png" width="500"/>
 </p>
